@@ -1,0 +1,154 @@
+@font-face {
+   font-family: generalFont;
+   src: url("spyagency3.ttf");
+}
+#wrapper{
+	width:80%;
+	height: 50%;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: absolute;
+}
+body{
+	text-align: center;
+	background-color: #E6F5FF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+#title{
+	padding-top: 60px;
+	font-family: generalFont;
+	font-size: 44px;
+	color: #0071c5;
+	position: relative;
+	text-align: center;
+}
+#subTitle{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 23px;	
+	color: #0071c5;
+	text-align: center;
+}
+#menu{
+	padding-top: 20px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+#buttonHome{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	width: 50px;
+	height: 30px;
+	background-color: #0071c5;
+}
+#buttonHome:hover{
+	text-align: center;
+	color: white;
+	width: 50px;
+	height: 30px;
+	background-color: #FF9922;
+}
+#buttonControl{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	width: 80px;
+	height: 30px;
+	background-color: #0071c5;
+}
+#buttonControl:hover{
+	text-align: center;
+	color: white;
+	width: 80px;
+	height: 30px;
+	background-color: #FF9922;
+}
+#buttonConfigure{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	width: 90px;
+	height: 30px;
+	background-color: #0071c5;
+}
+#buttonConfigure:hover{
+	text-align: center;
+	color: white;
+	width: 90px;
+	height: 30px;
+	background-color: #FF9922;
+}
+#buttonContact{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	width: 80px;
+	height: 30px;
+	background-color: #0071c5;
+}
+#buttonContact:hover{
+	text-align: center;
+	color: white;
+	width: 80px;
+	height: 30px;
+	background-color: #FF9922;
+}
+#buttonText{
+	padding-top:3px; 
+}
+#img{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#result{
+	width: 50%;
+}
+#controlDiv{
+	display: inline-block;
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+#video{
+	display: inline-block;
+	width: 45%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#controls{
+	display: inline-block;
+	width: 18%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+button{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: white;
+	border: solid;
+	border-color: #E6F5FF;
+	background-color: #0071c5;
+	width: 50%; 
+	height: 10%;
+}
+#voice{
+	display: inline-block;
+	width: 110px;
+}
+#voiceButton{
+	background-color: green;
+}
+p {
+
+	margin: 5px 0;
+}
+h2 {
+	padding-top: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}

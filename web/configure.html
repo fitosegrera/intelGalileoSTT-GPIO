@@ -1,0 +1,46 @@
+<head>
+	<script src="js/jquery-1.11.1.js"></script>
+	<script src = "js/config.js"></script>
+	<link rel="stylesheet" href="css/styleGeneral.css" />
+</head>
+
+<body>
+<div id = "wrapper">
+	<div id = "titleWrapper">
+		<div id = "title">union galileo</div>
+		<div id = "subTitle">Smart-Home Opensource System</div>
+	</div>
+	<div id = "menu">
+		<a href=""><div id="buttonHome"><p id="buttonText"><b>HOME</b></p></div></a>
+		<a href=""><div id="buttonControl"><p id="buttonText"><b>CONTROL</b></p></div></a>
+		<a href=""><div id="buttonConfigure"><p id="buttonText"><b>CONFIGURE</b></p></div></a>
+		<a href=""><div id="buttonContact"><p id="buttonText"><b>CONTACT</b></p></div></a>
+	</div>
+	<div id = "formDiv">
+		<div id = "formDiv">
+		<h2>Voice Commands</h2>
+		<p>Please input your personal voice commands and submit when you are done.</p>
+		<form action="" method="post">
+		Light On:<input type="text" name="lightOn" maxlength="12" size="12"/> <br/>
+		Light Off:<input type="text" name="lightOff" maxlength="36" size="12"/> <br/>
+		Open Curtain:<input type="text" name="openCurtain" maxlength="12" size="12"/> <br/>
+		Close Curtain:<input type="text" name="closeCurtain" maxlength="36" size="12"/> <br/>
+		Open Window:<input type="text" name="openWindow" maxlength="12" size="12"/> <br/>
+		Close Window:<input type="text" name="closeWindow" maxlength="36" size="12"/> <br/>
+		Fan On:<input type="text" name="fanOn" maxlength="12" size="12"/> <br/>
+		Fan Off:<input type="text" name="fanOff" maxlength="36" size="12"/> <br/>
+		<p><input type="submit" /></p>
+		</form>
+	</div>
+	<h2>Configuration:</h2>
+	<div id="results">
+	<pre id="result">
+	</pre>
+	</div>
+		<p><b>Powered by:</b></p>
+		<div id ="img">
+			<img src="img/intel.png" width="100px" >
+		</div>
+	</div>
+</div>
+</body>

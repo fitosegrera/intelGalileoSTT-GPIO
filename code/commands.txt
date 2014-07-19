@@ -1,0 +1,18 @@
+{
+	'light on'		: 'light on', 
+	'light off'		: 'light off',
+	'open curtain'	: 'open curtain',
+	'close curtain'	: 'close curtain',
+	'open window'	: 'open window', 
+	'close window'	: 'close window',
+	'fan on'		: 'fan on',
+	'fan off'		: 'fan off',
+	'tv on'			: 'tv on',
+	'tv off'		: 'tv off',
+	'alarm off'		: 'clear alarm',
+	'auto mode'		: 'auto mode',
+	'manual mode'	: 'manual mode',
+	'fountain on'	: 'fountain on',
+	'fountain off'	: 'fountain off',
+	'temperature'	: '25ºc'
+}

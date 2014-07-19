@@ -1,0 +1,44 @@
+@font-face {
+   font-family: generalFont;
+   src: url("spyagency3.ttf");
+}
+body{
+	background-color: #E6F5FF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+#title{
+	font-family: generalFont;
+	font-size: 44px;
+	color: #0071c5;
+}
+#subTitle{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 23px;	
+	color: #0071c5;
+}
+#formDiv{
+	padding-top: 30px;
+}
+#img{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+form {
+    line-height: 2em;
+}
+p {
+	margin: 5px 0;
+}
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: bold
+}
+#result {
+	margin: 10px;
+	padding: 10px;
+	height: 40px;
+	overflow: auto;
+}
